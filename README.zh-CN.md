@@ -8,10 +8,23 @@ Language : [English](./README.md) | 中文
 
 [![CLA assistant](https://cla-assistant.io/readme/badge/hypertrons/hypertrons-crx)](https://cla-assistant.io/hypertrons/hypertrons-crx)
 [![Slack](https://img.shields.io/badge/slack-join_chat-success.svg?logo=slack)](https://join.slack.com/t/hypertrons/shared_invite/zt-1a7tfc1tx-5YP8m59Yg~vSqiMBMeUJnQ)
+[![](https://img.shields.io/badge/Data-OpenDigger-2097FF)](https://github.com/X-lab2017/open-digger)
 
 </div>
 
 `Hypercrx` (发音: 'Hai-puh CRX') 浏览器插件项目旨在通过直接往 GitHub 页面中插入各类可视化看板的形式，帮助用户快速追踪、挖掘和洞察项目与开发者的各类行为数据，为社区的数字化运营和分析提供有效支撑。
+
+## 安装与使用 📢
+
+<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle"> [前往Chrome商店安装插件](https://chrome.google.com/webstore/detail/hypercrx/ijchfbpdgeljmhnhokmekkecpbdkgabc)
+
+<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/edge/edge.svg" width="48" alt="Edge" valign="middle"> [前往Edge商店安装插件](https://microsoftedge.microsoft.com/addons/detail/hypercrx/lbbajaehiibofpconjgdjonmkidpcome)
+
+获取更多信息，请查阅[安装指南](./INSTALLATION.zh-CN.md)。
+
+## 数据来源
+
+`Hypercrx`呈现的所有数据都由[OpenDigger](https://github.com/X-lab2017/open-digger)产生。OpenDigger是一个聚焦于开源分析的开源项目。数据会在每个月第二天更新。
 
 ## 可视化看板 🔥🔥🔥
 
@@ -28,15 +41,15 @@ Language : [English](./README.md) | 中文
     <tr>
       <td>
         <img
-          src="https://user-images.githubusercontent.com/32434520/180445548-63d5e0ce-635f-4e7b-bed7-e4bcbf2dc8c4.png"
+          src="https://user-images.githubusercontent.com/115639837/202907271-3eafea52-0dfd-4376-a896-b7ebbd75ae1d.png"
         />
       </td>
       <td>
         <img
-          src="https://user-images.githubusercontent.com/32434520/180447103-76ff1e25-ec35-4e7f-bd54-9d98545ca1df.png"
+          src="https://user-images.githubusercontent.com/32434520/210231755-34c788a8-ac2c-4993-b139-eb14aceee858.png"
         />
         <img
-          src="https://user-images.githubusercontent.com/32434520/180446790-50b6a53b-119e-4b74-a08d-dda146fb9f29.png"
+          src="https://user-images.githubusercontent.com/115639837/202907348-678bfaca-81a0-40b3-a0ee-1e9a4931961b.png"
         />
       </td>
     </tr>
@@ -50,25 +63,35 @@ Language : [English](./README.md) | 中文
      <tr> 
        <th width="33%">项目关系网络图</th> 
        <th width="33%">项目活跃开发者协作网络图</th> 
-       <th width="34%">项目活跃度&影响力趋势图</th> 
+       <th width="34%">项目活跃度&OpenRank趋势图</th> 
      </tr> 
    </thead> 
    <tbody> 
      <tr> 
        <td> 
          <img 
-           src="https://hypertrons.oss-cn-shanghai.aliyuncs.com/images/readme-prn.gif"
+           src="https://user-images.githubusercontent.com/32434520/210232109-6d3fbb9a-89a9-4c81-987b-18a2623e7aba.gif"
          /> 
        </td> 
        <td> 
          <img 
-           src="https://hypertrons.oss-cn-shanghai.aliyuncs.com/images/readme-dcnp.gif"
+           src="https://user-images.githubusercontent.com/90528630/171819879-d76a3f01-444a-4544-8d46-de539c5684c3.gif"
          /> 
        </td> 
        <td>
          <img 
-           src="https://hypertrons.oss-cn-shanghai.aliyuncs.com/images/readme_activity%26influence.gif"
+           src="https://user-images.githubusercontent.com/115639837/202907049-d799bfe1-2bd2-4ef0-a467-cc480c6488eb.gif"
          /> </td>
+     </tr> 
+     <tr> 
+       <th colspan="3">仓库详情 (鼠标悬浮触发)</th> 
+     </tr> 
+     <tr> 
+       <td colspan="3"> 
+         <img 
+           src="https://user-images.githubusercontent.com/32434520/202904112-f0f8386f-582d-4883-8e24-1be437f88ee0.png"
+         /> 
+       </td> 
      </tr> 
    </tbody> 
  </table> 
@@ -78,7 +101,9 @@ Language : [English](./README.md) | 中文
 
 - **项目活跃开发者协作网络图**: 项目活跃开发者协作网络图展示了在给定的时间段内，项目内部活跃的开发者之间的协作关系，**_用于项目内部开发者关系的追踪与挖掘_**。从该网络图中，可以找出该项目中最活跃的开发者，及开发者之间的协作关系。
 
-- **项目活跃度&影响力趋势图**：项目活跃度和影响力趋势图显示了项目成立至今的活跃度和影响力这两个指标的变化。您可以利用鼠标或触控板在图表内缩放和拖拽，此外，您还可以点击Legend按钮来控制图例的显示和隐藏。
+- **项目活跃度&OpenRank趋势图**：项目活跃度和OpenRank趋势图显示了项目成立至今的活跃度和OpenRank这两个指标的变化。您可以利用鼠标或触控板在图表内缩放和拖拽，此外，您还可以点击Legend按钮来控制图例的显示和隐藏。
+
+- **仓库详情**: 显示了以下统计指标的历史值。活跃度、OpenRank、参与人数、Fork事件、Star事件、Issue创建事件、Issue评论事件、PR创建事件、PR合入事件、Review评论事件、通过PR合入增加和删除的代码行数。
 
 ### 开发者关系挖掘
 
@@ -87,24 +112,24 @@ Language : [English](./README.md) | 中文
      <tr> 
        <th width="33%">开发者协作网络图</th> 
        <th width="33%">开发者活跃仓库网络图</th> 
-       <th width="34%">开发者活跃度&影响力趋势图</th> 
+       <th width="34%">开发者活跃度&OpenRank趋势图</th> 
      </tr> 
    </thead> 
    <tbody> 
      <tr> 
        <td> 
          <img 
-           src="https://hypertrons.oss-cn-shanghai.aliyuncs.com/images/readme-dcn.gif"
+           src="https://user-images.githubusercontent.com/90528630/171820059-96c6da74-3d29-4e79-a08d-a07861682646.gif"
          /> 
        </td> 
        <td> 
          <img 
-           src="https://hypertrons.oss-cn-shanghai.aliyuncs.com/images/readme-dmpr.gif"
+           src="https://user-images.githubusercontent.com/32434520/210232362-320c39ca-360d-4d60-a439-23bd02d611a6.gif"
          /> 
        </td> 
        <td>
          <img 
-           src="https://hypertrons.oss-cn-shanghai.aliyuncs.com/images/readme_activity%26influence.gif"
+           src="https://user-images.githubusercontent.com/115639837/202906644-4a22a336-fded-4ef2-82e1-16c3cb749d32.gif"
          /> </td>
      </tr> 
    </tbody> 
@@ -114,17 +139,15 @@ Language : [English](./README.md) | 中文
 
 - **开发者协作网络图**: 开发者协作网络图展示了在给定的时间段内，开发者与开发者之间的协作关系, ***用于开发者关系的追踪与挖掘***。从该网络图中，可以找出与指定开发者联系较为紧密的其他开发者。
 - **活跃仓库网络图**: 活跃仓库网络图展示了在给定的时间段内，开发者的活跃项目，***用于开发者行为的追踪与挖掘***。从该网络图中，可以找出该开发者在哪些项目中活跃。
-- **开发者活跃度&影响力趋势图**：开发者活跃度和影响力趋势图显示了项目成立至今的活跃度和影响力这两个指标的变化。您可以利用鼠标或触控板在图表内缩放和拖拽，此外，您还可以点击Legend按钮来控制图例的显示和隐藏。
+- **开发者活跃度&OpenRank趋势图**：开发者活跃度和OpenRank趋势图显示了项目成立至今的活跃度和OpenRank这两个指标的变化。您可以利用鼠标或触控板在图表内缩放和拖拽，此外，您还可以点击Legend按钮来控制图例的显示和隐藏。
 
-## 安装与使用 📢
+## OSS-GPT
 
-[link-chrome]: https://chrome.google.com/webstore/detail/hypercrx/ijchfbpdgeljmhnhokmekkecpbdkgabc "Version published on Chrome Web Store"
+OSS-GPT是集成了[DocsGPT](https://github.com/arc53/docsgpt)能力的开源项目文档问答机器人。对已经支持的项目，只需打开对应的项目仓库主页，即可询问有关于该仓库的任何问题。你可以通过[issue#609](https://github.com/hypertrons/hypertrons-crx/issues/609)以使你的开源项目获得OSS-GPT的支持。
 
-[link-edge]:https://microsoftedge.microsoft.com/addons/detail/hypercrx/lbbajaehiibofpconjgdjonmkidpcome?hl=zh-CN
-
-[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome] 同时上线在 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/edge/edge.svg" width="24" alt="Edge" valign="middle">][link-edge]<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/opera/opera.svg" width="24" alt="Opera" valign="middle">
-
-更多信息请参考 [安装指南](./INSTALLATION.zh-CN.md).
+<img 
+  src="https://user-images.githubusercontent.com/104072573/228415232-cc81eab2-5566-4775-bf27-c385881deb20.png"
+/>
 
 ## 参与贡献
 

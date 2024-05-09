@@ -89,17 +89,17 @@
       }
     }
   },
-  "component_developerCollabrationNetwork_title": {
+  "component_developerCollaborationNetwork_title": {
     "message": "开发者协作网络图"
   },
-  "component_developerCollabrationNetwork_description": {
+  "component_developerCollaborationNetwork_description": {
     "message": "开发者协作网络图展示了在给定的时间段内，开发者与开发者之间的协作关系, 用于开发者关系的追踪与挖掘。从该网络图中，可以找出与该开发者联系较为紧密的其他开发者。"
   },
-  "component_developerCollabrationNetwork_description_node": {
+  "component_developerCollaborationNetwork_description_node": {
     "message": "节点：一个节点表示开发者，节点大小与颜色的深浅表示开发者活跃度的大小。"
   },
-  "component_developerCollabrationNetwork_description_edge": {
-    "message": "边：开发者与开发者之间的协作关系，值的大小表示开发者间联系的紧密程度。"
+  "component_developerCollaborationNetwork_description_edge": {
+    "message": "边：开发者与开发者之间的协作关系，值的大小表示开发者间联系的紧密程度。为了使网络图不至于太稠密，值小于 2.5 的边会被剪去。"
   },
   "component_activity_definition": {
     "message": "查看如何定义活跃度"
@@ -119,38 +119,47 @@
   "component_contributorsActivityEvolution_description_3": {
     "message": "贡献者：指在项目中有过 star、fork、issue，和 PR 活动的所有 GitHub 用户。"
   },
-  "component_repoActiInflTrend_title": {
-    "message": "活跃度与影响力趋势"
+  "component_repoActORTrend_title": {
+    "message": "活跃度与OpenRank趋势"
   },
-  "component_repoActiInflTrend_legend1": {
+  "component_repoActORTrend_legend1": {
     "message": "活跃度"
   },
-  "component_repoActiInflTrend_legend2": {
-    "message": "影响力"
+  "component_repoActORTrend_legend2": {
+    "message": "OpenRank"
   },
-  "component_repoActiInflTrend_yName1": {
+  "component_repoActORTrend_yName1": {
     "message": "活跃度"
   },
-  "component_repoActiInflTrend_yName2": {
-    "message": "影响力"
+  "component_repoActORTrend_yName2": {
+    "message": "OpenRank"
   },
-  "component_developerActiInflTrend_title": {
-    "message": "活跃度与影响力趋势"
+  "component_developerActORTrend_title": {
+    "message": "活跃度与OpenRank趋势"
   },
-  "component_developerActiInflTrend_legend1": {
+  "component_developerActORTrend_legend1": {
     "message": "活跃度"
   },
-  "component_developerActiInflTrend_legend2": {
-    "message": "影响力"
+  "component_developerActORTrend_legend2": {
+    "message": "OpenRank"
   },
-  "component_developerActiInflTrend_yName1": {
+  "component_developerActORTrend_yName1": {
     "message": "活跃度"
   },
-  "component_developerActiInflTrend_yName2": {
-    "message": "影响力"
+  "component_developerActORTrend_yName2": {
+    "message": "OpenRank"
+  },
+  "component_projectRacingBar_title": {
+    "message": "贡献者活跃度滚榜"
   },
   "component_projectCorrelationNetwork_title": {
     "message": "项目关系网络图"
+  },
+  "component_projectRacingBar_ReplayButton": {
+    "message": "重播"
+  },
+  "component_projectRacingBar_description": {
+    "message": "贡献者活跃度滚榜展示了项目贡献者的活跃度演化过程。"
   },
   "component_projectCorrelationNetwork_description": {
     "message": "项目关系网络图展示了在给定的时间段内，项目与项目之间的联结关系，用于项目间关系的追踪与挖掘。从该网络图中，可以找出与该项目有联结关系的其他项目。"
@@ -159,7 +168,7 @@
     "message": "节点：一个节点表示一个项目，节点大小与颜色的深浅表示项目活跃度的大小。"
   },
   "component_projectCorrelationNetwork_description_edge": {
-    "message": "边：表示项目与项目之间存在联结关系，值的大小表示项目间联系的紧密程度。"
+    "message": "边：表示项目与项目之间存在联结关系，值的大小表示项目间联系的紧密程度。为了使网络图不至于太稠密，值小于 5 的边会被剪去。"
   },
   "component_mostParticipatedProjects_title": {
     "message": "活跃仓库网络图"
@@ -171,19 +180,19 @@
     "message": "节点：一个节点表示一个项目，节点大小与颜色的深浅表示开发者对该项目活跃度的贡献值。"
   },
   "component_mostParticipatedProjects_description_edge": {
-    "message": "边：项目与项目之间的连接关系，值的大小表示项目间联系的紧密程度。"
+    "message": "边：项目与项目之间的连接关系，值的大小表示项目间联系的紧密程度。为了使网络图不至于太稠密，值小于 5 的边会被剪去。"
   },
-  "component_activeDeveloperCollabrationNetwork_title": {
+  "component_activeDeveloperCollaborationNetwork_title": {
     "message": "项目活跃开发者协作网络图"
   },
-  "component_activeDeveloperCollabrationNetwork_description": {
+  "component_activeDeveloperCollaborationNetwork_description": {
     "message": "项目活跃开发者协作网络图展示了在给定的时间段内，项目内部活跃的开发者之间的协作关系，用于项目内部开发者关系的追踪与挖掘。从该网络图中，可以找出该项目中最活跃的开发者，及开发者之间的协作关系。"
   },
-  "component_activeDeveloperCollabrationNetwork_description_node": {
+  "component_activeDeveloperCollaborationNetwork_description_node": {
     "message": "节点：一个节点表示一个开发者，节点大小与颜色的深浅表示开发者对项目活跃度的贡献值。"
   },
-  "component_activeDeveloperCollabrationNetwork_description_edge": {
-    "message": "边：开发者与开发者之间的连接关系，值的大小表示开发者间联系的紧密程度。"
+  "component_activeDeveloperCollaborationNetwork_description_edge": {
+    "message": "边：开发者与开发者之间的连接关系，值的大小表示开发者间联系的紧密程度。为了使网络图不至于太稠密，值小于 2.5 的边会被剪去。"
   },
   "component_darkMode": {
     "message": "深色模式"
@@ -214,12 +223,6 @@
   },
   "options_locale_toolTip": {
     "message": "选择以何种语言显示信息"
-  },
-  "options_graphType_title": {
-    "message": "图表类型"
-  },
-  "options_graphType_toolTip": {
-    "message": "可选择图表组件的渲染方式，Antv 或者 Echarts"
   },
   "options_update_title": {
     "message": "更新"
@@ -285,10 +288,7 @@
     "message": "关于 Perceptor"
   },
   "options_about_description": {
-    "message": "Perceptor 用于 GitHub 项目与开发者关系的追踪、挖掘与洞察。通过可视化图表展示各类丰富的行为数据，方便用户快速洞察开发者与项目相关信息。"
-  },
-  "options_about_description_website": {
-    "message": "欢迎访问我们的网站获取更多信息："
+    "message": "Hypercrx 是一款帮助用户洞察 GitHub 上的项目和开发者的浏览器插件。"
   },
   "hypertrons_tab_title": {
     "message": "Hypertrons 指令"
@@ -298,5 +298,44 @@
   },
   "hypertrons_tab_link": {
     "message": "https://www.hypertrons.io/#/zh-cn/component/index"
+  },
+  "header_label_activity": {
+    "message": "活跃度"
+  },
+  "header_label_OpenRank": {
+    "message": "OpenRank"
+  },
+  "header_label_participant": {
+    "message": "参与人数"
+  },
+  "fork_popup_title": {
+    "message": "Fork 事件"
+  },
+  "star_popup_title": {
+    "message": "Star 事件"
+  },
+  "issue_popup_title": {
+    "message": "Issue 创建、关闭和评论事件"
+  },
+  "pr_popup_title": {
+    "message": "PR 创建、合入和 Review 评论事件"
+  },
+  "merged_lines_popup_title": {
+    "message": "通过 PR 合入增加和删除的代码行数"
+  },
+  "docs_gpt_chat_widget": {
+    "message": "OSS-GPT 聊天机器人"
+  },
+  "OSS_GPT_subtitle": {
+    "message": "询问任何有关 %v 的问题"
+  },
+  "OSS_GPT_subtitle_notAvailable": {
+    "message": "暂未支持 %v "
+  },
+  "OSS_GPT_welcome": {
+    "message": "您好，我是一个由 [DocsGPT](https://github.com/arc53/docsgpt) 和 [X-lab](https://github.com/X-lab2017) 提供支持的开源项目文档问答机器人。您可以向我询问有关 %v 的任何问题!"
+  },
+  "OSS_GPT_notAvailable": {
+    "message": "OSS-GPT 暂未支持 %v。如果您想使此仓库得到文档问答支持，请前往[该 issue](https://github.com/hypertrons/hypertrons-crx/issues/609) 提交需求 :)\n\n查看[所有已支持文档](https://oss.x-lab.info/hypercrx/docsgpt_active_docs.json)\n\n您也可以随时在扩展选项页面中启用/禁用此聊天小部件。"
   }
 }
